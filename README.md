@@ -12,7 +12,11 @@
 
 ## Description
 
+This is a portfolio webpage, which will act as the landing page for Joey Palchak's programming portfolio. The home page, or index.html, presents the user with some of Joey's most recent projects - each of which includes a brief description, list of languages used, and links to their respective Github Pages.
 
+The user will be presented with a navigation menu, which includes links to both the initial Project home page as well as an About Me page. This second page will present the user with background information on Joey Palchak - including a brief summary of his education, job experience, hobbies, interests, and skills.
+
+In addition to Projects and About Me, the navigation bar includes links to a number of Joey Palchak's social media accounts.
 
 ## Setup/Installation Requirements
 
@@ -21,7 +25,7 @@
     ```
     git clone url-of-repo
     ```
-3. Navigate to the top level of the cloned directory.
+3. Navigate to the top level of the newly cloned directory.
 4. Open index.html in your browser.
 
 ##### _Alternatively:_
@@ -31,8 +35,7 @@
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs at current state.
 
 ## License
 
