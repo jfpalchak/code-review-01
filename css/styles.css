@@ -26,3 +26,7 @@
 }
 
 /* Styles for content in About Me section. */
+.important {
+    font-weight: bold;
+    font-style: italic;
+}
