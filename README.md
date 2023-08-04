@@ -35,7 +35,7 @@ In addition to Projects and About Me, the navigation bar includes links to a num
 
 ## Known Bugs
 
-* No known bugs at current state.
+* The height of the project columns fail to match between width:1365px and width:1378px.
 
 ## License
 
