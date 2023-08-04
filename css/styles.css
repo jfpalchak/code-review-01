@@ -17,4 +17,9 @@
 .main-content {
     border: 1px black solid;
     margin: 10px;
+    padding-left: 10px;
+}
+
+.main-content ul {
+    list-style: none;
 }
