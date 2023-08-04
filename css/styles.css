@@ -1,23 +1,32 @@
 /* --Styles for HEADER box at top of each page.-- */
 .header {
     border: 1px black solid;
+    border-radius: 8px;
     margin: 10px;
+    /* width: 15%; */
 }
 
 .header img {
     width: 10rem;
-    padding: 10px;
+    padding: 5px;
 }
 
 .header h1 {
     padding-left: 10px;
 }
 
+.header a {
+    text-decoration: none;
+}
+
 /* --Styles for CONTENT BOX below header on each page.-- */
 .main-content {
     border: 1px black solid;
+    border-radius: 8px;
     margin: 10px;
-    padding-left: 10px;
+    padding: 10px;
+    /* width: 85%;
+    display: inline-block; */
 }
 
 .important {
@@ -26,17 +35,43 @@
 }
 
 /* --Styles for PROJECTS section.-- */
-/* Columns for Projects */
+/* Two Columns for Projects */
 .project-column {
     float: left;
-    width: 50%; /* two columns */
+    width: 50%; 
+}
+
+/* .project-row {
+    border: 1px black solid;
+}
+.my-projects {
+    border: 1px black solid;
+} */
+
+.project {
+    margin: 1%;
+    padding: 3px;
+    background-color: rgba(196, 246, 242, 0.573);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.repos-link {
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.pages-link {
+    float:right;
+    text-decoration: none;
 }
 
 /* --Styles for ABOUT ME section.-- */
-/* Columns for Interests, Hobbies, Skills */
+/* Three Columns for Interests, Hobbies, Skills */
 .hobbies-column {
     float: left;
-    width: 33.33%; /* three columns */
+    width: 33.33%;
     text-align: center;
 }
 
