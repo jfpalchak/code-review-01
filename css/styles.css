@@ -7,6 +7,7 @@
 
 .profile-pic {
     width: 10rem;
+    margin-top: 8px;
     padding: 5px;
     float: left;
 }
@@ -35,7 +36,8 @@
 
 /* --Styles for CONTENT BOX below header on each page.-- */
 .main-content {
-    border: 1px black solid;
+    /* border: 1px black solid; */
+    background-color: aliceblue;
     border-radius: 8px;
     margin: 10px auto; 
     padding: 10px;
@@ -81,6 +83,10 @@
 }
 
 /* --Styles for ABOUT ME section.-- */
+.my-hobbies {
+    background-color: rgba(196, 246, 242, 0.573);
+    border-radius: 8px;
+}
 /* Three Columns for Interests, Hobbies, Skills */
 .hobbies-column {
     float: left;
@@ -90,6 +96,7 @@
 
 .hobbies-column li {
     text-align: left;
+    list-style-type:circle;
 }
 
 .hobbies-column p {
