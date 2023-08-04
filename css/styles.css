@@ -1,4 +1,4 @@
-/* Styles for header box at top of page. */
+/* Styles for header box at top of pages. */
 .header {
     border: 1px black solid;
     margin: 10px;
@@ -20,6 +20,9 @@
     padding-left: 10px;
 }
 
-.main-content ul {
+/* Styles for project list on main page. */
+.project-list ul {
     list-style: none;
 }
+
+/* Styles for content in About Me section. */
