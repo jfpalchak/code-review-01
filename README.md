@@ -20,17 +20,17 @@ In addition to Projects and About Me, the navigation bar includes links to a num
 
 ## Setup/Installation Requirements
 
-1. Copy the **[link](https://www.example.com)** provided for this repository.
+1. Copy the **[link](https://github.com/jfpalchak/palchak-portfolio.git)** provided for this repository.
 2. Wherever you keep your working directory, use the git command:
     ```
-    git clone url-of-repo
+    git clone https://github.com/jfpalchak/palchak-portfolio.git
     ```
 3. Navigate to the top level of the newly cloned directory.
 4. Open index.html in your browser.
 
 ##### _Alternatively:_
 
-1. Go to the website at this **[link](https://www.example.com)**, provided by GitHub Pages.
+1. Go to the website at this **[link](https://jfpalchak.github.io/palchak-portfolio/)**, provided by GitHub Pages.
 
 
 ## Known Bugs
