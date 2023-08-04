@@ -1,4 +1,4 @@
-/* --Styles for header box at top of pages.-- */
+/* --Styles for HEADER box at top of each page.-- */
 .header {
     border: 1px black solid;
     margin: 10px;
@@ -13,19 +13,29 @@
     padding-left: 10px;
 }
 
-/* --Styles for content box below header.-- */
+/* --Styles for CONTENT BOX below header on each page.-- */
 .main-content {
     border: 1px black solid;
     margin: 10px;
     padding-left: 10px;
 }
 
-/* --Styles for project list on main page.-- */
-.project-list ul {
-    list-style: none;
-}
+/* --Styles for PROJECTS on main page.-- */
+/* Columns for projects */
+/* Projects + About me columns share styles, let's merge them later. */
+.project-column {
+    float: left;
+    width: 50%;
+  }
+  
+/* Clear floats after the columns */
+  .project-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-/* --Styles for content in About Me section.-- */
+/* --Styles for ABOUT ME section.-- */
 .important {
     font-weight: bold;
     font-style: italic;
