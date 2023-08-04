@@ -24,7 +24,7 @@ The user will be presented with a navigation menu, which includes links to both 
     git clone https://github.com/jfpalchak/palchak-portfolio.git
     ```
 3. Navigate to the top level of the newly cloned directory.
-4. Open index.html in your browser.
+4. Open index.html in your browser to view and navigate the webpage.
 
 ##### _Alternatively:_
 
