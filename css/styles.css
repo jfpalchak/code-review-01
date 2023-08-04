@@ -1,4 +1,4 @@
-/* Styles for header box at top of pages. */
+/* --Styles for header box at top of pages.-- */
 .header {
     border: 1px black solid;
     margin: 10px;
@@ -13,20 +13,37 @@
     padding-left: 10px;
 }
 
-/* Styles for content box below header. */
+/* --Styles for content box below header.-- */
 .main-content {
     border: 1px black solid;
     margin: 10px;
     padding-left: 10px;
 }
 
-/* Styles for project list on main page. */
+/* --Styles for project list on main page.-- */
 .project-list ul {
     list-style: none;
 }
 
-/* Styles for content in About Me section. */
+/* --Styles for content in About Me section.-- */
 .important {
     font-weight: bold;
     font-style: italic;
+}
+
+/* Columns for Interests, Hobbies, Skills */
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+/* Clear floats after the columns */
+.hobbies-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hobbies-row {
+    text-align: center;
 }
