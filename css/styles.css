@@ -2,33 +2,42 @@
 .header {
     border: 1px black solid;
     border-radius: 8px;
-    margin: 10px;
+    margin: 10px auto;
 }
 
-.header img {
+.profile-pic {
     width: 10rem;
     padding: 5px;
     float: left;
 }
 
-.header h4 {
+.nav-bar {
     padding-left: 10px;
-    /* float: left; */
-}
-
-.header a {
-    text-decoration: none;
-}
-
+    margin-top: 10px;
+} 
 .nav-bar ul{
     list-style: none;
 }
+
+.nav-bar a {
+    padding: 5px 15px;
+    border-radius: 8px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  
+  .nav-bar a:hover, .nav-bar a:active {
+    background-color: rgba(196, 246, 242, 0.573);
+    color: black;
+  }
 
 /* --Styles for CONTENT BOX below header on each page.-- */
 .main-content {
     border: 1px black solid;
     border-radius: 8px;
-    margin: 10px;
+    margin: 10px auto; 
     padding: 10px;
 }
 
@@ -44,19 +53,20 @@
     width: 50%; 
 }
 
-/* .project-row {
-    border: 1px black solid;
-}
-.my-projects {
-    border: 1px black solid;
-} */
-
 .project {
     margin: 1%;
-    padding: 3px;
+    padding: 1%;
     background-color: rgba(196, 246, 242, 0.573);
     border-radius: 8px;
     box-sizing: border-box;
+}
+
+.project li {
+    font-size: smaller;
+}
+
+.project p {
+    display: inline-block;
 }
 
 .repos-link {
@@ -73,7 +83,7 @@
 /* --Styles for ABOUT ME section.-- */
 /* Three Columns for Interests, Hobbies, Skills */
 .my-hobbies {
-    
+
 }
 
 .hobbies-column {
