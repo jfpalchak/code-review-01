@@ -32,9 +32,18 @@
 }
 
 /* Columns for Interests, Hobbies, Skills */
-.column {
+.hobbies-column {
     float: left;
     width: 33.33%;
+    text-align: center;
+}
+
+.hobbies-column li {
+    text-align: left;
+}
+
+.hobbies-column p {
+    text-align: justify;
 }
   
 /* Clear floats after the columns */
@@ -42,8 +51,4 @@
     content: "";
     display: table;
     clear: both;
-}
-
-.hobbies-row {
-    text-align: center;
 }
