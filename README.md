@@ -1,8 +1,8 @@
-# _{Application Name}_
+# Portfolio Landing Page
 
 #### By _Joey Palchak_
 
-#### _{Brief description of application}_
+#### A portfolio webpage, acting as the landing page for a personal programming portfolio.
 
 ## Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+
 
 ## Setup/Installation Requirements
 
