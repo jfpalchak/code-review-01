@@ -16,6 +16,8 @@ This is a portfolio webpage, which will act as the landing page for Joey Palchak
 
 The user will be presented with a navigation menu, which includes links to the initial Project home page, Joey's GitHub profile, as well as an About Me page. This second page will present the user with some background information on Joey Palchak - including a brief summary of his education, job experience, hobbies, interests, and skills.
 
+The site can be found on **[GitHub Pages](https://jfpalchak.github.io/palchak-portfolio/)**.
+
 ## Setup/Installation Requirements
 
 1. Copy the **[URL](https://github.com/jfpalchak/palchak-portfolio.git)** provided for this repository.
