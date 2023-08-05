@@ -36,7 +36,6 @@
 
 /* --Styles for CONTENT BOX below header on each page.-- */
 .main-content {
-    /* border: 1px black solid; */
     background-color: aliceblue;
     border-radius: 8px;
     margin: 10px auto; 

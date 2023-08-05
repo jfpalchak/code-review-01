@@ -18,8 +18,10 @@ The user will be presented with a navigation menu, which includes links to the i
 
 ## Setup/Installation Requirements
 
-1. Copy the **[link](https://github.com/jfpalchak/palchak-portfolio.git)** provided for this repository.
-2. Wherever you keep your working directory, use the git command:
+1. Copy the **[URL](https://github.com/jfpalchak/palchak-portfolio.git)** provided for this repository.
+2. Open Terminal.
+3. Change your working directory to where you want the cloned directory.
+4. In your terminal, type `git clone` and use the copied URL from Step 1. Or, copy the following git command:
     ```bash
     git clone https://github.com/jfpalchak/palchak-portfolio.git
     ```
