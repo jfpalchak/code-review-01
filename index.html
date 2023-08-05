@@ -10,24 +10,63 @@
 </head>
 
 <body>
-    <!-- Header & navigation bar to top of page -->
+    <!-- HEADER and NAVIGATION for top of page -->
     <div class="header container clearfix">
         <img class="profile-pic container" src="images/banana-cir.png" alt="Joey, hesitantly eating a banana.">
         <div class="nav-bar container">
             <h4>Joey Palchak</h4>
             <ul>
-                <li><a class="active" href="index.html">Projects</a></li>
-                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="#jump-proj">Projects</a></li>
+                <li><a href="#jump-about">About Me</a></li>
                 <li><a href="https://github.com/jfpalchak">GitHub</a></li>
             </ul>
         </div>
     </div> <!-- header -->
 
-    <!-- Start of lower body content -->
+    <!-- Start of ABOUT ME content -->
     <div class="main-content container">
-        <h3>List of recent projects:</h3>
-        <!-- Two Column Layout -->
-        <div class="my-projects">
+        <div class="about-me" id="jump-about">
+            <div class="my-background">
+                <h3>Hello, world!</h3>
+                <p>Joey Palchak graduated from the <span class="important">University of Vermont in 2015 with a Bachelors in Computer Science</span>, while minoring in both Mathematics and Philosophy. Unlike his colleagues, however, he did not join the workforce immediately after graduating; instead, he packed up his '08 Subaru Impreza and traveled the country, until the car eventually brokedown in Portland, OR.</p>
+                <p><em>He never left.</em></p>
+                <p>Before joining Epicodus in 2023, Joey has worked as a <strong>bartender</strong>, a <strong>Music Director</strong> for community radio, as well as a freelance <strong>Producer</strong> for local radio and podcasts.</p>
+            </div>
+            <div class="my-hobbies">
+                <!-- Three Column Layout -->
+                <div class="hobbies-row clearfix">
+                    <div class="hobbies-column phone-stack">
+                        <h3>Hobbies</h3>
+                        <p>When he's not spending time with his partner, Deryn, or walking his dog Koda, Joey loves to spend his spare time reading comics, playing games, and drinking grapefruit seltzers.</p>
+                    </div>
+                    <div class="hobbies-column phone-stack">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Music</li>
+                            <li>Photography</li>
+                            <li>Traveling</li>
+                            <li>Grapefruit Seltzer</li>
+                        </ul>
+                    </div>
+                    <div class="hobbies-column phone-stack">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>Code: HTML, CSS, and potentially JavaScript</li>
+                            <li>Audio: Audacity, Hindenburg, Adobe Audition</li>
+                            <li>CMS: WordPress, YouTube, Drupal, Blogger</li>
+                            <li>Making a damn good margarita.</li>
+                        </ul>
+                    </div>
+                </div> <!-- hobbies-row -->
+            </div> <!-- my-hobbies -->
+        </div> <!-- about-me -->
+    </div> <!-- main-content -->
+
+    <!-- Start of PROJECTS content -->
+    <div class="main-content container">
+        <div class="my-projects" id="jump-proj">
+            <h3>Recent projects:</h3>
+            <!-- Two Column Layout -->
             <div class="project-row clearfix">
                 <div class="project-column phone-stack">
                     <div class="project">

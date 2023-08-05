@@ -14,7 +14,9 @@
 
 This is a portfolio webpage, which will act as the landing page for Joey Palchak's programming portfolio. The home page, or index.html, presents the user with some of Joey's most recent projects - each of which includes a brief description, list of languages used, and links to their respective Github Pages.
 
-The user will be presented with a navigation menu, which includes links to the initial Project home page, Joey's GitHub profile, as well as an About Me page. This second page will present the user with some background information on Joey Palchak - including a brief summary of his education, job experience, hobbies, interests, and skills.
+The user will also be presented with some personal background information on Joey - including a brief summary of his education, job experience, hobbies, interests, and skills.
+
+At the top of the page, within the main header, the user can find a simple navigation menu. The navigation includes jump links to each section - "About Me" and "Projects" - of the page, as well as a link to Joey's GitHub profile.
 
 The site can be found on **[GitHub Pages](https://jfpalchak.github.io/palchak-portfolio/)**.
 
@@ -32,12 +34,12 @@ The site can be found on **[GitHub Pages](https://jfpalchak.github.io/palchak-po
 
 ##### _Alternatively:_
 
-1. Go to the website at this **[link](https://jfpalchak.github.io/palchak-portfolio/)**, provided by GitHub Pages.
+1. Go to the website directly via **[GitHub Pages](https://jfpalchak.github.io/palchak-portfolio/)**.
 
 
 ## Known Bugs
 
-* No known bugs at this state.
+* In mobile view, when the project-column objects stack, the gap between the stacked columns are inconsistent in size with the other gaps between each project.
 
 ## License
 
