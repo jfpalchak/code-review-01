@@ -1,8 +1,8 @@
 /* --Styles for HEADER box at top of each page.-- */
 .header {
-    border: 1px black solid;
     border-radius: 8px;
     margin: 10px auto;
+    background-color: aliceblue;
 }
 
 .profile-pic {
