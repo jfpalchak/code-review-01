@@ -14,7 +14,7 @@
 
 This is a portfolio webpage, which will act as the landing page for Joey Palchak's programming portfolio. The home page, or index.html, presents the user with some of Joey's most recent projects - each of which includes a brief description, list of languages used, and links to their respective Github Pages.
 
-The user will be presented with a navigation menu, which includes links to both the initial Project home page as well as an About Me page. This second page will present the user with background information on Joey Palchak - including a brief summary of his education, job experience, hobbies, interests, and skills.
+The user will be presented with a navigation menu, which includes links to the initial Project home page, Joey's GitHub profile, as well as an About Me page. This second page will present the user with some background information on Joey Palchak - including a brief summary of his education, job experience, hobbies, interests, and skills.
 
 ## Setup/Installation Requirements
 
