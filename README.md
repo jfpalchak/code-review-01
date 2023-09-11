@@ -39,7 +39,7 @@ The site can be found on **[GitHub Pages](https://jfpalchak.github.io/palchak-po
 
 ## Known Bugs
 
-* In mobile view, when the project-column objects stack, the gap between the stacked columns are inconsistent in size with the other gaps between each project.
+* No known bugs at this time.
 
 ## License
 
