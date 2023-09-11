@@ -27,12 +27,12 @@
     text-decoration: none;
     display: inline-block;
     box-sizing: border-box;
-  }
-  
-  .nav-bar a:hover, .active {
+}
+
+.nav-bar a:hover, .active {
     background-color: rgba(196, 246, 242, 0.573);
     color: black;
-  }
+}
 
 /* --Styles for CONTENT BOX below header on each page.-- */
 .main-content {
@@ -59,6 +59,7 @@
     padding: 1%;
     background-color: rgba(196, 246, 242, 0.573);
     border-radius: 8px;
+    height: 250px;
     box-sizing: border-box;
 }
 
@@ -102,7 +103,7 @@
     text-align: justify;
     padding: 0 20px;
 }
-  
+
 /* class .clearfix will clear floats after the columns, 
 which we can use to fix the "overflow" problem */
 .clearfix::after {
